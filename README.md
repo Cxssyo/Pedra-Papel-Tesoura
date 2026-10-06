@@ -10,9 +10,7 @@ Neste repositório vamos documentar um projeto que simula um jogo de pedra papel
 - N/A
 
 ## Autoria
-Cassyo_Santos/
+Cassyo_Santos/Luiz_Pedro
 
 ## Licença
-
 N/A
-
