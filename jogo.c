@@ -3,11 +3,11 @@
 
 int main()
 {
-	int esc_player;
-	int i = 1;
-	int esc_comp;
-	int plc_player = 0;
-	int plc_comp = 0;
+	int esc_player; // Variável onde ler a a escolha do jogador
+	int i = 1; // Váriavel do contador, fica presente nas contagens das rodadas;
+	int esc_comp;  // Váriavel da escolha da maquina por meio do rand()
+	int plc_player = 0; // Váriavel que conta o placar do jogador
+	int plc_comp = 0; // Váriavel que conta o placar do computador
 
 
 	while(i <= 3) {
