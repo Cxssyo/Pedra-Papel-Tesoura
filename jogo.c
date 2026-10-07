@@ -52,7 +52,7 @@ int main()
 			printf("RESULTADO DA RODADA %d/3: \n", i); // Aqui é o resultado da rodada, contendo aa variavel do contador.
 			if(esc_player == 1 && esc_comp == 3) {
 				printf("Voce ganhou a rodada!\n"); // São as condições onde vai definir quem ganhou a rodada
-				plc_player++;
+				plc_player++;                      // Incremento dos pontos caso o jogador ganhe na rodada.
 			} else if(esc_player == 2 && esc_comp == 1) {
 				printf("Voce ganhou a rodada!\n");
 				plc_player++;
@@ -64,18 +64,18 @@ int main()
 				continue;
 			} else {
 				printf("O computador ganhou a rodada!\n");
-				plc_comp++;
+				plc_comp++; // Incremento dos pontos caso o computador ganhe na rodada.
 			}
-			i++;
+			i++; // Incremento nas rodadas 
 		}
 
 	}
-	if(plc_player > plc_comp) {
+	if(plc_player > plc_comp) {  // Condição sobre os placares ao terminar as 3 rodadas.
 		printf("-----------------------------------------------------------\n");
 		printf("RESULTADO FINAL:\n");
 		printf("Voce ganhou!!\n");
 		printf("-----------------------------------------------------------\n");
-		printf("--> Placar Final: jogador: %d computador: %d <--\n", plc_player, plc_comp);
+		printf("--> Placar Final: jogador: %d computador: %d <--\n", plc_player, plc_comp); // Placar final
 		printf("-----------------------------------------------------------\n");
 		printf("FIM DE JOGO!");
 
